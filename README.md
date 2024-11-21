@@ -21,8 +21,8 @@ Make sure you have the following installed on your system:
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone [<repository-url>](https://github.com/hemantsoni23/frontend_data_analysis.git)
+   cd frontend_data_analysis
    ```
 
 2. **Install Dependencies**
@@ -68,9 +68,6 @@ To create a production build of the application:
    ```bash
    yarn preview
    ```
-
-3. Deploy the `dist` folder to any static hosting service.
-
 ---
 
 ## Project Structure
@@ -85,8 +82,10 @@ src/
 └── main.tsx                           # Main application entry point
 ```
 
-<!-- ---
+## Screenshots
 
-## Screenshot
+### 1. Yearly Crop Production Table
+![Yearly Crop Production](./public/Screenshots/Screenshot1.jpg)
 
---- -->
+### 2. Crop Averages Table
+![Crop Averages](./public/Screenshots/Screenshot2.jpg)

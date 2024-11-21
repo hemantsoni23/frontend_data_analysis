@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <MantineProvider withGlobalStyles withNormalizeCSS>
-      <Container>\
+      <Container>
         <header style={{ textAlign: 'center', marginBottom: '2rem' }}>
           <Title order={1} align="center">India Agro Data Dashboard</Title>
         </header>
